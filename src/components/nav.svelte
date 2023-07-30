@@ -65,7 +65,8 @@
 	}
 	nav {
 		display: flex;
-		width: 80vw;
+		width: 100vw;
+		padding: 1rem;
 		height: 100px;
 		justify-content: space-between;
 		align-items: center;
