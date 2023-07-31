@@ -27,11 +27,18 @@
 	}
 	.new {
 		width: 100%;
+
 		padding: 1.5rem 1rem;
 		background-color: var(--Very-dark-blue);
 	}
 	.new h1 {
 		color: var(--Soft-orange);
 		font-family: var(--ff-inter);
+	}
+	@media screen and (min-width: 1024px){
+		main{
+			width: 40vw;
+	
+		}
 	}
 </style>

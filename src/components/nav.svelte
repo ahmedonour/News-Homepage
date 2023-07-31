@@ -135,25 +135,41 @@
 	}
 
 	@media screen and (min-width: 1024px) {
+		#logo {
+		width: 80px;
+	}
 		nav {
 			width: 80vw;
+			height: 150px;
 			justify-content: space-between;
 		}
 		nav button {
 			display: none;
 		}
-		nav ul {
+		.bg {
 			display: flex;
-			position: relative;
 			width: 40vw;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+		}
+		nav .bg ul {
+			display: flex;
+			width: 40vw;
+			height: 100%;
+			text-align: center;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
-			list-style: decimal-leading-zero;
+			position: static;
+			gap: 2rem;
 			font-size: 1.5rem;
-			font-family: var(--ff-main);
 		}
-
+		nav .bg ul li {
+			text-align: center;
+			font-size: 1rem;
+			margin: 0;
+		}
 		/* nav ul .left-side {
 			display: flex;
 			justify-content: space-between;
@@ -161,7 +177,7 @@
 			width: 50%;
 			margin-right: 3rem;
 		} */
-		nav ul li::after {
+		nav .bg ul li::after {
 			display: block;
 			content: '';
 			width: 100%;
@@ -171,7 +187,7 @@
 			transform-origin: bottom right;
 			transition: transform 0.25s ease-out;
 		}
-		nav ul li:hover::after {
+		nav .bg ul li:hover::after {
 			transform: scaleX(1);
 			transform-origin: bottom left;
 		}
