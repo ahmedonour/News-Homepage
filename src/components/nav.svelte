@@ -125,6 +125,10 @@
 		font-weight: 400;
 		margin-bottom: 2rem;
 	}
+	nav .bg ul li:hover{
+		color: var(--Soft-red);
+		cursor: pointer;
+	}
 	nav .bg ul li::marker {
 		color: var(--clr-Blue);
 	}

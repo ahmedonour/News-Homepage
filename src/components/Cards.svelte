@@ -41,6 +41,10 @@
 
         color: var(--Very-dark-blue);
     }
+    h1:hover{
+        color: var(--Soft-red);
+        cursor: pointer;
+    }
     .praghraph{
         font-size: .8rem;
         grid-row: 3;

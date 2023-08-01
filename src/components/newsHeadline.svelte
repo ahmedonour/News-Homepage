@@ -18,6 +18,10 @@
 	h1 {
 		font-size: 1.5rem;
 	}
+	h1:hover{
+		color: var(--Soft-orange);
+		cursor: pointer;
+	}
 	p {
 		color: var(--Grayish-blue);
 		line-height: 2;

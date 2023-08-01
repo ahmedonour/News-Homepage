@@ -14,7 +14,7 @@ import HeroSection from '../components/HeroSection.svelte';
 	<div class="flexSection">
 		<Cards src="/images/image-retro-pcs.jpg" num="01" h_one="Reviving Retro PCs" parghraph="What happens when old PCs are given modern upgrades?"/>
 		<Cards src="/images/image-top-laptops.jpg" num="02" h_one="Top 10 Laptops of 2022" parghraph="Our best picks for various needs and budgets."/>
-		<Cards src="/images/image-gaming-growth.jpg" num="03" h_one="Top 10 Laptops of 2022" parghraph="Our best picks for various needs and budgets."/>
+		<Cards src="/images/image-gaming-growth.jpg" num="03" h_one="The Growth of Gaming" parghraph="How the pendemic has sparked fresh opportunities."/>
 	</div>
 </main>
 <style>

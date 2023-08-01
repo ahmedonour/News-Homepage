@@ -46,6 +46,10 @@
 		color: var(--Off-white);
 		background-color: var(--Soft-red);
 	}
+	button:hover{
+		background-color: var(--Very-dark-blue);
+		cursor: pointer;
+	}
 	@media screen and (min-width: 1024px){
 		#mobile{
 			display: none;
