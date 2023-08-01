@@ -4,7 +4,9 @@ import HeroSection from '../components/HeroSection.svelte';
 	import NewSection from '../components/NewSection.svelte';
 	import Nav from '../components/nav.svelte';
 </script>
-
+<svelte:head>
+	<title>News Letter</title>
+</svelte:head>
 <main>
 	<Nav />
 	<div class="gridSection">
