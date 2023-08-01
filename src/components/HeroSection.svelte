@@ -71,6 +71,7 @@
 			grid-row: 2 / span 3;
 		}
 		p{
+			text-align: justify;
 			font-size: 1.2rem;
 			grid-column: 2;
 			grid-row: 2/3;

@@ -136,7 +136,7 @@
 
 	@media screen and (min-width: 1024px) {
 		#logo {
-		width: 80px;
+		width: 60px;
 	}
 		nav {
 			width: 80vw;
